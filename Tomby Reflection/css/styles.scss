@@ -43,8 +43,10 @@ header{
   .main-header{
     padding: 20px 0;
     .top-header{
-      margin-right: 350px;
-      margin-left: 350px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-left: 15px;
+      padding-right: 15px;
       @media(min-width: 1268px){
         width: 1260px;
       }
@@ -851,8 +853,8 @@ header{
       }
       .icon-software{
         background-color: #67809f;
-        height: 60px;
-        width: 60px;
+        height: 100px;
+        width: 100px;
         margin: 0 auto 17px;
         color: #fff;
         border-radius: 50%;
@@ -920,8 +922,8 @@ header{
       }
       .icon-IT{
         background-color: #4183d7;
-        height: 60px;
-        width: 60px;
+        height: 100px;
+        width: 100px;
         margin: 0 auto 17px;
         color: #fff;
         border-radius: 50%;
@@ -989,8 +991,8 @@ header{
       }
       .icon-dmarketing{
         background-color: #2ecc71;
-        height: 60px;
-        width: 60px;
+        height: 100px;
+        width: 100px;
         margin: 0 auto 17px;
         color: #fff;
         border-radius: 50%;
@@ -1023,7 +1025,6 @@ header{
     .block-telecoms{
       text-decoration: none;
       margin-top: 30px;
-      margin-bottom: 30px;
       text-align: center;
       display: block;
       border: 1px solid #ccc;
@@ -1059,8 +1060,8 @@ header{
       }
       .icon-telecoms{
         background-color: #d64541;
-        height: 60px;
-        width: 60px;
+        height: 100px;
+        width: 100px;
         margin: 0 auto 17px;
         color: #fff;
         border-radius: 50%;
@@ -1093,7 +1094,6 @@ header{
     .block-webdes{
       text-decoration: none;
       margin-top: 30px;
-      margin-bottom: 30px;
       text-align: center;
       display: block;
       border: 1px solid #ccc;
@@ -1129,8 +1129,8 @@ header{
       }
       .icon-webdes{
         background-color: #926fb1;
-        height: 60px;
-        width: 60px;
+        height: 100px;
+        width: 100px;
         margin: 0 auto 17px;
         color: #fff;
         border-radius: 50%;
@@ -1163,7 +1163,6 @@ header{
     .block-cyber{
       text-decoration: none;
       margin-top: 30px;
-      margin-bottom: 30px;
       text-align: center;
       display: block;
       border: 1px solid #ccc;
@@ -1199,8 +1198,8 @@ header{
       }
       .icon-cyber{
         background-color: #f62459;
-        height: 60px;
-        width: 60px;
+        height: 100px;
+        width: 100px;
         margin: 0 auto 17px;
         color: #fff;
         border-radius: 50%;
@@ -1233,7 +1232,6 @@ header{
     .block-devtrain{
       text-decoration: none;
       margin-top: 30px;
-      margin-bottom: 30px;
       text-align: center;
       display: block;
       border: 1px solid #ccc;
@@ -1269,8 +1267,8 @@ header{
       }
       .icon-devtrain{
         background-color: #926fb1;
-        height: 60px;
-        width: 60px;
+        height: 100px;
+        width: 100px;
         margin: 0 auto 17px;
         color: #fff;
         border-radius: 50%;
@@ -1324,8 +1322,8 @@ header{
       left: 0;
       right: 0;
       margin: auto;
-      width: 30px;
-      height: 3px;
+      width: 48px;
+      height: 5px;
       display: block;
       background-color: #333645;
     }
@@ -1343,11 +1341,8 @@ header{
     .info-section{
       position: relative;
       min-height: 1px;
-      margin-left: 350px;
-      margin-right: 900px;
       padding-left: 15px;
       padding-right: 15px;
-      max-width: 1000px;
       .button-info{
         .button-culture{
           color: #333645;
@@ -1375,15 +1370,14 @@ header{
   }
 .latest-articles{
   box-shadow: 0 5px 35px rgba(0,0,0,.1);
-  padding-top: 50px;
-  padding-bottom: 50px;
   .bar-container{
     box-shadow: 0 5px 35px rgba(0,0,0,.1);
     .article-container{
-      margin-right: 350px;
-      margin-left: 350px;
+      margin-right: auto;
+      margin-left: auto;
       padding-left: 15px;
       padding-right: 15px;
+
       ul{
         list-style: none;
         margin: 0;
@@ -1418,19 +1412,19 @@ header{
     padding-top: 50px;
     padding-bottom: 50px;
     .articles-container{
-      margin-right: 350px;
-      margin-left: 350px;
+      margin-right: auto;
+      margin-left: auto;
       padding-left: 15px;
       padding-right: 15px;
-      @media(min-width: 1260px){
-        width: 1200px;
+      @media(min-width: 1268px){
+        width: 1260px;
       }
       .articles-list{
         overflow: hidden;
         .articles-row{
-          margin-top: 30px;
-          margin-left: 15px;
-          margin-right: 15px;
+          margin-top: -30px;
+          margin-left: -15px;
+          margin-right: -15px;
           display: flex;
           flex-direction: column;
           justify-content: space-around;
@@ -1441,12 +1435,10 @@ header{
           .item-1{
             position: relative;
             min-height: 1px;
-            padding-top: 30px;
             padding-left: 15px;
             padding-right: 15px;
             font-size: .8125rem;
             margin-top: 30px;
-
             .item-1-img-container{
               position: relative;
               .news-button{
@@ -1573,7 +1565,6 @@ header{
           .item-2{
             position: relative;
             min-height: 1px;
-            padding-top: 30px;
             padding-left: 15px;
             padding-right: 15px;
             font-size: .8125rem;
@@ -1704,7 +1695,6 @@ header{
           .item-3{
             position: relative;
             min-height: 1px;
-            padding-top: 30px;
             padding-left: 15px;
             padding-right: 15px;
             font-size: .8125rem;
@@ -1843,8 +1833,8 @@ footer{
   padding: 47px 0 43px;
   margin-bottom: -50px;
   .footer-container{
-    margin-right: 350px;
-    margin-left: 350px;
+    margin-right: auto;
+    margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
     height: 200px;
@@ -1885,13 +1875,6 @@ footer{
             li{
               font-size: .8125rem;
               line-height: 1.375rem;
-              a{
-                text-decoration: none;
-                color: #fff;
-              }
-              a:hover{
-                text-decoration: underline;
-              }
             }
           }
         }
@@ -1962,7 +1945,6 @@ footer{
           padding-left: 15px;
           padding-right: 15px;
           color: #fff;
-
           h4{
             color: #fff;
             text-transform: uppercase;
@@ -1973,12 +1955,12 @@ footer{
           }
           .social-container{
             margin-top: -24px;
-
             .social-row{
               margin-left: -15px;
               margin-right: -15px;
               display: flex;
               flex: row;
+              flex-wrap: nowrap;
               width: 500px;
               .facebook-container{
                 width: 50%;
@@ -2006,9 +1988,6 @@ footer{
                     line-height: 1;
                   }
                 }
-                .facebook:hover{
-                  background-color: #3b5998;
-                }
               }
               .twitter-container{
                 width: 50%;
@@ -2017,14 +1996,6 @@ footer{
                 min-height: 1px;
                 padding-left: 15px;
                 padding-right: 15px;
-                .left {
-                  align-self: flex-start;
-                }
-
-                .right {
-                  margin-left: auto;
-                }
-
                 .twitter{
                   margin-top: 30px;
                   display: block;
@@ -2043,9 +2014,6 @@ footer{
                     text-transform: none;
                     line-height: 1
                   }
-                }
-                .twitter:hover{
-                  background-color: #00aced;
                 }
               }
               .linkedin-container{
@@ -2074,62 +2042,10 @@ footer{
                     line-height: 1
                   }
                 }
-                .linkedin:hover{
-                  background-color: #0077b5;
-                }
               }
             }
           }
         }
-      }
-    }
-  }
-}
-.accreditations{
-  padding: 50px 0;
-  text-align: center;
-  padding-top: 50px;
-  .acc-container{
-    @media (min-width: 1260px){
-      width: 1200px;
-    }
-    .acc-list{
-      padding-left: 500px;
-      display: flex;
-      .google-partner{
-        flex-grow: 1;
-        vertical-align: middle;
-        padding-right: 100px;
-        padding-top: 50px;
-        position: relative;
-      }
-      .microsoft-partner{
-        flex-grow: 1;
-        vertical-align: middle;
-        padding-right: 100px;
-        padding-top: 50px;
-        position: relative;
-      }
-      .future-50{
-        flex-grow: 1;
-        vertical-align: middle;
-        padding-right: 100px;
-        padding-top: 50px;
-        position: relative;
-      }
-      .qms{
-        flex-grow: 1;
-        vertical-align: middle;
-        padding-right: 100px;
-        padding-top: 50px;
-        position: relative;
-      }
-      .carbon-charter{
-        flex-grow: 1;
-        vertical-align: middle;
-        padding-right: 100px;
-        padding-top: 50px;
-        position: relative;
       }
     }
   }
