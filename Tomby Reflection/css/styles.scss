@@ -59,6 +59,7 @@ header{
           height: 70px;
           max-width: 100%;
           display: block;
+          vertical-align: middle;
           border: 0;
         }
         .support{
@@ -183,6 +184,8 @@ header{
             i{
             color: #926fb1;
             height: 60%;
+            }
+            small{
             }
            }
           .dropdown-content{
@@ -1484,6 +1487,7 @@ header{
                   transition: all .25s cubic-bezier(.215,.61,.355,1);
                   max-width: 100%;
                   display: block;
+                  vertical-align: middle;
                   box-sizing: border-box;
                 }
               }
@@ -1614,7 +1618,7 @@ header{
                   transition: all .25s cubic-bezier(.215,.61,.355,1);
                   max-width: 100%;
                   display: block;
-                  
+                  vertical-align: middle;
                   box-sizing: border-box;
                 }
               }
@@ -1637,7 +1641,7 @@ header{
                 margin-inline-start: 0px;
                 margin-inline-end: 0px;
                 a{
-                  color: #926fb1;
+                  color: #4183d7;
                   font-weight: 600;
                   text-decoration: none;
                   background: transparent;
@@ -1745,7 +1749,7 @@ header{
                   transition: all .25s cubic-bezier(.215,.61,.355,1);
                   max-width: 100%;
                   display: block;
-                  
+                  vertical-align: middle;
                   box-sizing: border-box;
                 }
               }
@@ -1768,7 +1772,7 @@ header{
                 margin-inline-start: 0px;
                 margin-inline-end: 0px;
                 a{
-                  color: #926fb1;
+                  color: #4183d7;
                   font-weight: 600;
                   text-decoration: none;
                   background: transparent;
