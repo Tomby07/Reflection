@@ -45,7 +45,7 @@ header{
     padding: 20px 0;
     .top-header{
       margin-right: 350px;
-      margin-left: 350px;
+      margin-left: 300px;
       @media(min-width: 1268px){
         width: 1260px;
       }
@@ -793,7 +793,7 @@ header{
       position: absolute;
       top: 50%;
       left: 25%;
-      transform: translate(-50%, -50%);
+      transform: translate(-30%, -50%);
       @media(max-width: 993px){
         transform: translate(0%, -50%);
       }
