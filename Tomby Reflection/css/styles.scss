@@ -44,10 +44,11 @@ header{
   .main-header{
     padding: 20px 0;
     .top-header{
-      margin-right: 350px;
-      margin-left: 300px;
+      
       @media(min-width: 1268px){
         width: 1260px;
+        margin-right: 350px;
+        margin-left: 320px;
       }
       .top-nav{
         margin-left: -15px;
@@ -55,9 +56,15 @@ header{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        @media(max-width: 993px){
+          flex-direction: row;
+          flex-wrap: wrap;
+        }
         .logo{
-          width: 402px;
-          height: 70px;
+          @media(min-width: 1268px){
+            width: 402px;
+            height: 70px;
+          }
           max-width: 100%;
           display: block;
           border: 0;
@@ -118,26 +125,36 @@ header{
             margin-right: 5px;
           }
         }
-        .search-bar{
-          @media(min-width: 993px){
+        .sb{
+          @media(max-width: 993px){
             display: none;
           }
-          order: 1;
-          background-color: rgba(0,0,0,.1);
-          outline: 1px solid hsla(0,0%,100%,.2);
-          border: 2px solid rgba(0,0,0,.1);
-          transition: none;
-          width: 100%;
-          padding-right: 40px;
-          height: 47px;
-          padding: 5px 15px;
-          border-radius: 2px;
-          box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-          font-size: 14px;
-          line-height: 1.42857143;
-          color: #555;
-          margin: 0;
-          padding: 5px 40px 5px 15px;
+          display: flex;
+          .search-bar{
+            border-radius: 0;
+            width: 240px;
+            height: 45px;
+            padding: 5px 15px;
+            border-color: #ccc;
+            background-color: #fff;
+            background-image: none;
+            border: 1px solid #e5e5e5;
+          }
+          a{
+            outline: none;
+            padding: 7px 20px 3px;
+            height: 47px;
+            font-size: 1.063rem;
+            border-radius: 0 3px 3px 0;
+            border: none;
+            vertical-align: bottom;
+            background-color: #999aa2;
+            color: #fff;
+            span{
+              line-height: 45px;
+              font-size: x-large;
+            }
+          }
         }
         .menu{
           color: #fff;
@@ -158,7 +175,38 @@ header{
             line-height: 10px;
             float: left;
             font-size: x-large;
-            margin-right: 5px;
+          }
+        }
+        .sbm{
+          @media(min-width: 1268px){
+            display: none;
+          }
+          .search-bar-mobile{
+            @media(min-width: 1268px){
+              display: none;
+            }
+            background-color: rgba(0,0,0,.1);
+            outline: 1px solid hsla(0,0%,100%,.2);
+            border: 2px solid rgba(0,0,0,.1);
+            transition: none;
+            width: 800px;
+            padding-right: 40px;
+            height: 47px;
+            padding: 5px 15px;
+            margin-top: 10px;
+          }
+          a{
+            background: none;
+            border: none;
+            color: #333645;
+            position: absolute;
+            right: 5px;
+            line-height: 47px;
+            font-size: 20px;
+            outline: none;
+            span{
+              font-weight: 400;
+            }
           }
         }
       }
@@ -204,10 +252,10 @@ header{
             font-size: 1.125rem;
             text-decoration: none;
             line-height: 1;
-            height: 100%;
+            height: 80%;
             i{
             color: #926fb1;
-            height: 60%;
+            position: relative;
             }
             
            }
@@ -299,10 +347,10 @@ header{
             font-size: 1.125rem;
             text-decoration: none;
             line-height: 1;
-            height: 100%;
+            height: 80%;
             i{
               color: #4183d7;
-              height: 60%;
+              position: relative;
             }
             small{
               display: block;
@@ -396,10 +444,10 @@ header{
             font-size: 1.125rem;
             text-decoration: none;
             line-height: 1;
-            height: 100%;
+            height: 80%;
             i{
               color: #d64541;
-              height: 60%;
+              position: relative;
             }
             small{
               display: block;
@@ -492,10 +540,10 @@ header{
             font-size: 1.125rem;
             text-decoration: none;
             line-height: 1;
-            height: 100%;
+            height: 80%;
             i{
               color: #67809f;
-              height: 60%;
+              position: relative;
 
             }
             small{
@@ -589,10 +637,10 @@ header{
             font-size: 1.125rem;
             text-decoration: none;
             line-height: 1;
-            height: 100%;
+            height: 80%;
             i{
               color: #2ecc71;
-              height: 60%;
+              position: relative;
             }
             small{
               display: block;
@@ -685,10 +733,10 @@ header{
             font-size: 1.125rem;
             text-decoration: none;
             line-height: 1;
-            height: 100%;
+            height: 80%;
             i{
               color: #f62459;
-              height: 60%;
+              position: relative;
             }
             small{
               display: block;
@@ -908,6 +956,9 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        i{
+          position: relative;
+        }
       }
     }
     .block-software:hover{
@@ -977,6 +1028,9 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        i{
+          position: relative;
+        }
       }
     }
     .block-IT:hover{
@@ -1046,6 +1100,9 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        i{
+          position: relative;
+        }
       }
     }
     .block-dmarketing:hover{
@@ -1116,6 +1173,9 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        i{
+          position: relative;
+        }
       }
     }
     .block-telecoms:hover{
@@ -1186,6 +1246,9 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        i{
+          position: relative;
+        }
       }
     }
     .block-webdes:hover{
@@ -1256,6 +1319,9 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        i{
+          position: relative;
+        }
       }
     }
     .block-cyber:hover{
@@ -1326,6 +1392,9 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        i{
+          position: relative;
+        }
       }
     }
     .block-devtrain:hover{
@@ -1389,6 +1458,12 @@ header{
     padding-bottom: 50px;
     background-color: #333645;
     color: #fff;
+    @media(min-width: 1268px){
+      background-image: url(../img/netmatters-ltd-VXAv.png);
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: 1500px;
+    }
     .info-section{
       position: relative;
       min-height: 1px;
@@ -1432,7 +1507,7 @@ header{
         }
       }
     }
-  }
+}
 .latest-articles{
   box-shadow: 0 5px 35px rgba(0,0,0,.1);
   padding-top: 50px;
